@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành Phối màu Đơn tông (Monochromatic Style)</title>
+    <style>
+        /* Reset CSS cơ bản */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            color: #000000;
+            /* Bước 6: Giữ nguyên màu chữ toàn trang là màu đen */
+        }
+
+        /* Bước 2: Màu nền trang web (Dùng màu Bậc 4) */
+        body {
+            background-color: #A3E4D7;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header / Logo Section */
+        header {
+            background-color: #2ECC71;
+            /* Màu Bậc 1 */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ffffff;
+            /* Đổi chữ trắng trên nền đậm để dễ đọc */
+        }
+
+        /* Bước 3: Thay đổi màu nền phần ON SALE / PREVIEW (Màu Bậc 2) */
+        .badge-sale {
+            background-color: #27AE60;
+            color: #ffffff;
+            display: inline-block;
+            padding: 6px 16px;
+            font-weight: bold;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+
+        /* Bước 4: Đổi màu nền phần nội dung (Màu Bậc 7) */
+        .content {
+            background-color: #E8F8F5;
+            padding: 30px;
+            line-height: 1.6;
+        }
+
+        .content h2 {
+            margin-bottom: 10px;
+        }
+
+        /* Bước 5: Đổi màu nền phần Footer (Màu Bậc 9) */
+        footer {
+            background-color: #F4F6F7;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            border-top: 1px solid #dcdde1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Trang Web Sản Phẩm</h1>
+        </header>
+
+        <main class="content">
+            <span class="badge-sale">ON SALE 50%</span>
+            <h2>Sản phẩm nổi bật trong tháng</h2>
+            <p>
+                Đây là bài thực hành phối màu đơn tông (Monochromatic Palette).
+                Bằng cách giảm dần độ đậm nhạt của màu xanh chủ đạo, giao diện tạo được sự đồng bộ, thanh lịch và hài
+                hòa thị giác.
+            </p>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 CodeGym Practice - Monochromatic Color Scheme</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
